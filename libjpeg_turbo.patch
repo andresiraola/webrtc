@@ -1,0 +1,22 @@
+diff --git a/jpeglibmangler.h b/jpeglibmangler.h
+index ed87a53..e17370b 100644
+--- a/jpeglibmangler.h
++++ b/jpeglibmangler.h
+@@ -113,5 +113,17 @@
+ #define jpeg_mem_term chromium_jpeg_mem_term
+ #define jpeg_std_message_table chromium_jpeg_std_message_table
+ #define jpeg_natural_order chromium_jpeg_natural_order
++#define jpeg_idct_7x7 chromium_jpeg_idct_7x7
++#define jpeg_idct_6x6 chromium_jpeg_idct_6x6
++#define jpeg_idct_5x5 chromium_jpeg_idct_5x5
++#define jpeg_idct_3x3 chromium_jpeg_idct_3x3
++#define jpeg_idct_9x9 chromium_jpeg_idct_9x9
++#define jpeg_idct_10x10 chromium_jpeg_idct_10x10
++#define jpeg_idct_11x11 chromium_jpeg_idct_11x11
++#define jpeg_idct_12x12 chromium_jpeg_idct_12x12
++#define jpeg_idct_13x13 chromium_jpeg_idct_13x13
++#define jpeg_idct_14x14 chromium_jpeg_idct_14x14
++#define jpeg_idct_15x15 chromium_jpeg_idct_15x15
++#define jpeg_idct_16x16 chromium_jpeg_idct_16x16
+ 
+ #endif  // THIRD_PARTY_LIBJPEG_TURBO_JPEGLIBMANGLER_H_
